@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'main';
+  src: url('/fonts/Hanken.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  position: relative;
+  background-color: #FFFFFF;
+}
+*{
+  font-family: main;
+}
+main {
+  margin-top: 80px;
+}
+
+/* Customize the entire scrollbar */
+::-webkit-scrollbar {
+  width: 6px; /* width of vertical scrollbar */
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: transparent; /* color of the scrollbar track */
+  border-radius: 10px;
+}
+
+/* Handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: rgb(122, 122, 122); /* color of the scrollbar thumb */
+  border-radius: 10px;
+}
+
+
