@@ -7,7 +7,6 @@ export const useLenis = () => {
       duration: 1.2,      // smoothness speed
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // default easing
       smoothWheel: true,
-      smoothTouch: false,
     });
 
     function raf(time: number) {
