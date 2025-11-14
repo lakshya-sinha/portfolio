@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className='flex items-center justify-center  p-2 backdrop-blur-xs fixed w-full h-20 top-0'>
       <div className="nav-container flex items-center justify-between w-full lg:w-[50%]  p-1">
           <div className="nav-first flex gap-3 items-end">
-            <Link to={'/'}><img src={logo} alt="" className='w-12 rounded-xl border-amber-50'/></Link>
+            <Link to={'/'}><img src={logo} alt="" className='w-12 hover:p-1 transition-all ease-out rounded-xl border-amber-50'/></Link>
             <ul className='flex gap-2 font-medium'>
                 <li className='hover:underline decoration-2 pb-1 transition-all '><Link to={'/work'}>Work</Link></li>
                 <li className='hover:underline decoration-2 pb-1 transition-all'><Link to={'/blog'}>Blog</Link></li>

@@ -4,6 +4,9 @@ import {Blog, Landing} from './pages/index'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { useLenis } from "./hooks/useLenis.ts";
+import Projects from './pages/Projects.tsx'
+import Work from './pages/Work.tsx'
+import WinterArc from './components/blogs/WinterArc.tsx'
 
 
 function App() {
@@ -15,8 +18,13 @@ function App() {
         <Navbar></Navbar>
         <Routes>
           
-          <Route path='/' element={<Landing/>}></Route>  
-          <Route path='/blog' element={<Blog/>}></Route>
+                <Route path='/' element={<Landing/>}></Route>  
+                <Route path='/blog' element={<Blog/>}>
+                  <Route path='winterarc' element={<WinterArc/>}></Route> 
+                </Route>
+                <Route path='/projects' element={<Projects/>}></Route>
+                <Route path='/work' element={<Work/>}></Route>
+
         </Routes> 
 
         <Footer></Footer>

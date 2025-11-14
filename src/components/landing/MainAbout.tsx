@@ -28,11 +28,11 @@ const MainAbout = () => {
         </h1>
       </div>
       <div className="ma-fourth flex items-center gap-3 ">
-        <button className='flex gap-2  cursor-pointer p-2 pl-3 pr-3 rounded-xl shadow-inner ring-1 ring-gray-400 inset-shadow-indigo-500'>
+        <button className='flex gap-2 text-sm  cursor-pointer p-2 pl-3 pr-3 rounded-xl shadow-inner ring-1 ring-gray-400 inset-shadow-indigo-500'>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-file-user-icon lucide-file-user"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /><path d="M14 2v5a1 1 0 0 0 1 1h5" /><path d="M16 22a4 4 0 0 0-8 0" /><circle cx="12" cy="15" r="3" /></svg>
           Resume / CV
         </button>
-        <button className='flex gap-2   cursor-pointer p-2 pl-3 pr-3 rounded-xl shadow-inner ring-1 ring-gray-400 text-white bg-gray-950 inset-shadow-indigo-500 hover:bg-gray-800'>
+        <button className='flex gap-2  text-sm  cursor-pointer p-2 pl-3 pr-3 rounded-xl shadow-inner ring-1 ring-gray-400 text-white bg-gray-950 inset-shadow-indigo-500 hover:bg-gray-800'>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-send-icon lucide-send"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z" /><path d="m21.854 2.147-10.94 10.939" /></svg>
           Get in touch
         </button>
